@@ -3,12 +3,12 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8763/eureka/
 server:
-  port: 8765
-
+  port:
 spring:
   application:
-    name: service-feign
-  ##zipkin 配置 独立运行的服务器
+    name: service-hi
+
+  ##zipkin 配置
   zipkin:
     base-url: http://127.0.0.1:9411
     sender:
@@ -16,9 +16,9 @@ spring:
   sleuth:
     sampler:
       probability: 1.0
-    ##rabbitmq
-    rabbitmq:
-      username: admin
-      password: admin
-      host: 127.0.0.1
-      port: 5672
+  ##rabbitmq
+  rabbitmq:
+    username: admin
+    password: admin
+    host: 127.0.0.1
+    port: 5672

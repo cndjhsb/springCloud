@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8763/eureka/
   instance:
     prefer-ip-address: true
 server:
@@ -19,8 +19,8 @@ spring:
       probability: 1.0
       ##rabbitmq
   rabbitmq:
-    username: rabbit
-    password: rabbitmq
+    username: admin
+    password: admin
     host: 127.0.0.1
     port: 5672
 zuul:
