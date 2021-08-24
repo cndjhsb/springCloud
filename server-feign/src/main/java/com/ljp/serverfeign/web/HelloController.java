@@ -1,6 +1,6 @@
 package com.ljp.serverfeign.web;
 
-import com.ljp.serverfeign.service.SchedualServiceHi;
+import com.ljp.serverfeign.service.HelloSchedualService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,20 +9,20 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HiController {
+public class HelloController {
     @Autowired
-    SchedualServiceHi schedualServiceHi;
+    private HelloSchedualService helloSchedualService;
 
-    @RequestMapping(value = "/hi", method = RequestMethod.GET)
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String sayHi(@RequestParam String name) {
-        return schedualServiceHi.sayHiFromClientOne(name);
+        return helloSchedualService.sayHelloFromClientOne(name);
     }
 
-    @Value("${foo}")
-    String foo;
+    @Value("${ljp.config.center.apple}")
+    String apple;
 
-    @RequestMapping(value = "/foo", method = RequestMethod.GET)
+    @RequestMapping(value = "/getApple1", method = RequestMethod.GET)
     public String sayFoo() {
-        return this.foo;
+        return this.apple;
     }
 }

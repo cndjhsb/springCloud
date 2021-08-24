@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ljp-provider/ljp-provider.iml" filepath="$PROJECT_DIR$/ljp-provider/ljp-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ljp-springCloud.iml" filepath="$PROJECT_DIR$/ljp-springCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-feign/server-feign.iml" filepath="$PROJECT_DIR$/server-feign/server-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zipkin/server-zipkin.iml" filepath="$PROJECT_DIR$/server-zipkin/server-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c08f5e2b-349c-448c-b70d-68e2396885e6" name="Changes" comment="更新文件">
+      <change afterPath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/service/HelloSchedualServiceHystric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/ServerFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/ServerFeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/service/SchedualServiceHi.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/service/HelloSchedualService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/service/SchedualServiceHiHystric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/web/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-feign/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-zipkin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server-zipkin/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1x7ZCuEJ6aX2PqxX5OrjaZS3PmW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="Application.ServerZuulApplication">
+    <configuration name="ConfigClientApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljp.configclient.ConfigClientApplication" />
+      <module name="config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljp.configclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljp.configserver.ConfigServerApplication" />
+      <module name="config-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljp.configserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerFeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljp.serverfeign.ServerFeignApplication" />
+      <module name="server-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljp.serverfeign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerZipkinApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljp.serverzipkin.ServerZipkinApplication" />
+      <module name="server-zipkin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljp.serverzipkin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljp.serverzuul.ServerZuulApplication" />
+      <module name="server-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljp.serverzuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerZuulApplication" />
+        <item itemvalue="Application.ServerZipkinApplication" />
+        <item itemvalue="Application.ServerFeignApplication" />
+        <item itemvalue="Application.ConfigClientApplication (1)" />
+        <item itemvalue="Application.ConfigServerApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c08f5e2b-349c-448c-b70d-68e2396885e6" name="Changes" comment="" />
+      <created>1629707963843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629707963843</updated>
+    </task>
+    <task id="LOCAL-00001" summary="更新文件">
+      <created>1629789563118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629789563118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新文件" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
