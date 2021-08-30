@@ -4,23 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08f5e2b-349c-448c-b70d-68e2396885e6" name="Changes" comment="更新文件">
-      <change afterPath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/service/HelloSchedualServiceHystric.java" afterDir="false" />
+    <list default="true" id="c08f5e2b-349c-448c-b70d-68e2396885e6" name="Changes" comment="所有服务启动">
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/ljp/configserver/CustomHealthCheckHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/ljp/configserver/CustomeHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-eureka/src/main/java/com/ljp/servereureka/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/ServerFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/ServerFeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/service/SchedualServiceHi.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/service/HelloSchedualService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/service/SchedualServiceHiHystric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/web/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/java/com/ljp/serverfeign/web/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-feign/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server-feign/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-zipkin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server-zipkin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ljp-springCloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ljp-springCloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -39,7 +43,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1x7ZCuEJ6aX2PqxX5OrjaZS3PmW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,9 +62,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
-  <component name="RunManager" selected="Application.ServerZuulApplication">
+  <component name="RunManager" selected="Application.ThreadTest">
     <configuration name="ConfigClientApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljp.configclient.ConfigClientApplication" />
       <module name="config-client" />
@@ -78,19 +84,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ljp.configserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerFeignApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljp.serverfeign.ServerFeignApplication" />
-      <module name="server-feign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljp.serverfeign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljp.servereureka.ThreadTest" />
+      <module name="server-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljp.servereureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerZuulApplication" />
-        <item itemvalue="Application.ServerZipkinApplication" />
-        <item itemvalue="Application.ServerFeignApplication" />
+        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.ConfigClientApplication (1)" />
         <item itemvalue="Application.ConfigServerApplication (1)" />
+        <item itemvalue="Application.ServerZuulApplication" />
+        <item itemvalue="Application.ServerZipkinApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629789563118</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="所有服务启动">
+      <created>1629795793659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629795793659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,8 +180,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新文件" />
+    <MESSAGE value="所有服务启动" />
+    <option name="LAST_COMMIT_MESSAGE" value="所有服务启动" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3-sources.jar!/com/netflix/appinfo/PropertiesInstanceConfig.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

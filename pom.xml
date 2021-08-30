@@ -20,5 +20,12 @@
         <module>server-zuul</module>
         <module>ljp-provider</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
